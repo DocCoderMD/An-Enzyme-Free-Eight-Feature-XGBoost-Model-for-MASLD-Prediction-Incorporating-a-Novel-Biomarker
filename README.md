@@ -56,10 +56,19 @@ python "MASLD-8.py"
 
 ## Pipeline Outputs
 The script automatically generates a new folder called `ml_output/` containing:
-1. **`table1_demographics_8feature_corrected.csv`**: Full baseline characteristics and statistical comparisons (Welch's t-test / Chi-square) for the cohort.
-2. **`auroc_curve_8feature_corrected.png`**: ROC curve assessing the test-set discriminative performance.
-3. **`shap_summary_plot_8feature_corrected.png`**: Beeswarm plot showing individual feature impacts on MASLD risk.
-4. **`shap_bar_plot_8feature_corrected.png`**: Global feature importance ranking based on mean absolute SHAP values.
+
+### 1. SHAP Feature Importance (Beeswarm)
+![SHAP Summary Plot](ml_output/shap_summary_plot_8feature_corrected.png)
+
+### 2. SHAP Global Importance (Bar)
+![SHAP Bar Plot](ml_output/shap_bar_plot_8feature_corrected.png)
+
+### 3. AUROC Curve
+![AUROC Curve](ml_output/auroc_curve_8feature_corrected.png)
+
+### 4. Baseline Characteristics
+[Click here to view Table 1: Baseline Demographics & Clinical Characteristics](table1_demographics_8feature.csv)
+
 
 ## Clinical Demo
 The end of the script outputs a simulated clinical vignette to the console, demonstrating how the model evaluates a "lean phenotype" patient (normal BMI) who possesses underlying cardiometabolic risk factors, illustrating the model's alignment with the 2023 Delphi consensus.
