@@ -1,0 +1,2 @@
+# An-Enzyme-Free-Eight-Feature-XGBoost-Model-for-MASLD-Prediction-Incorporating-a-Novel-Biomarker
+Existing non-invasive prediction models around MASLD typically require liver enzymes—ALT, AST, or GGT—unavailable at many PCPs. This is an enzyme-free XGBoost classifier incorporating serum uric acid-to-HDL cholesterol ratio (UHRatio - a novel synergistic metabolic risk signal) alongside seven routine clinical parameters, validated against VCTE.
