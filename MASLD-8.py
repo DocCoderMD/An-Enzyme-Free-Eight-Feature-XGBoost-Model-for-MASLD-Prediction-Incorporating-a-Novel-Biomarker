@@ -69,7 +69,7 @@ os.makedirs(OUTPUT_DIR, exist_ok=True)
 CDC_BASE_URL = "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles"
 
 NHANES_FILES = {
-    # Original 8 files
+  
     "demo":    "P_DEMO.xpt",     # Demographics (age, sex, pregnancy)
     "liver":   "P_LUX.xpt",      # Liver ultrasound / VCTE (CAP score)
     "biopro":  "P_BIOPRO.xpt",   # Biochemistry (serum uric acid)
@@ -78,7 +78,6 @@ NHANES_FILES = {
     "hscrp":   "P_HSCRP.xpt",    # High-sensitivity CRP
     "body":    "P_BMX.xpt",      # Body measures (BMI, waist)
     "glucose": "P_GLU.xpt",      # Fasting plasma glucose
-    # New files for corrected cohort definition
     "fasting": "P_FASTQX.xpt",   # [FIX 1] Fasting time verification
     "bp":      "P_BPX.xpt",      # [FIX 2] Blood pressure (MASLD criteria)
     "alcohol": "P_ALQ.xpt",      # [FIX 3] Alcohol use exclusion
