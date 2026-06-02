@@ -1,5 +1,10 @@
 """
-ML-Based Prediction of MASLD Using NHANES 2017-March 2020 Pre-Pandemic Data
+ML-Based Prediction of Metabolic Dysfunction-Associated Steatotic Liver Disease (MASLD) 
+A modular machine learning pipeline for predicting MASLD using NHANES 2017-2020 data and XGBoost classifier.
+
+__version__ = "1.0.0"
+__author__ = "DocCoderMD"
+
 8-Feature Model: Age + Sex + Triglycerides + Fasting Glucose + hs-CRP +
                  BMI + Waist Circumference + UHRatio (Uric Acid / HDL)
 
@@ -7,7 +12,6 @@ Ground truth: VCTE/FibroScan CAP score >= 274 dB/m (steatosis grade >= S1)
              WITH cardiometabolic criteria per 2023 MASLD Delphi consensus
 Algorithm:    XGBoost (Extreme Gradient Boosting)
 Explainability: SHAP (SHapley Additive exPlanations)
-
 
 NHANES data files required (download from https://www.cdc.gov/nchs/nhanes/):
   P_DEMO.xpt    - Demographics (age, sex, pregnancy)
