@@ -58,13 +58,13 @@ python "MASLD-8.py"
 The script automatically generates a new folder called `ml_output/` containing:
 
 ### 1. SHAP Feature Importance (Beeswarm)
-![SHAP Summary Plot](MASLD_Output.md/shap_summary_plot_8feature_corrected.png)
+![SHAP Summary Plot](shap_summary_plot_8feature_corrected.png)
 
 ### 2. SHAP Global Importance (Bar)
-![SHAP Bar Plot](MASLD_Output.md/shap_bar_plot_8feature_corrected.png)
+![SHAP Bar Plot](shap_bar_plot_8feature_corrected.png)
 
 ### 3. AUROC Curve
-![AUROC Curve](MASLD_Output.md/auroc_curve_8feature_corrected.png)
+![AUROC Curve](auroc_curve_8feature_corrected.png)
 
 ### 4. Baseline Characteristics
 [Click here to view Table 1: Baseline Demographics & Clinical Characteristics](table1_demographics_8feature.csv)
