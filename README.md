@@ -51,7 +51,7 @@ Because the CDC periodically updates its server structures, this script is confi
 ## Usage
 Once the data is staged, run the script from your terminal or IDE:
 ```bash
-python "ML June.py"
+python "MASLD-8.py"
 ```
 
 ## Pipeline Outputs
