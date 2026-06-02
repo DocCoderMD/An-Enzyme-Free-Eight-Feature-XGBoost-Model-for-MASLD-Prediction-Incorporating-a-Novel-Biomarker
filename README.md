@@ -3,7 +3,7 @@
 ## Overview
 This repository contains the machine learning pipeline for predicting Metabolic Dysfunction-Associated Steatotic Liver Disease (MASLD) using routine clinical biomarkers, demographic variables, and novel digital indices. The model utilizes Extreme Gradient Boosting (XGBoost) and SHAP (SHapley Additive exPlanations) for interpretability, adhering to the 2023 MASLD Delphi consensus criteria.
 
-## Abstract (ACG 2026 Submission)
+## Abstract
 **Title** 
 An Enzyme-Free, Eight-Feature XGBoost Model for Metabolic Dysfunction-Associated Steatotic Liver Disease Prediction Incorporating a Novel Biomarker: A Nationally Representative Cross-Sectional Analysis
 
