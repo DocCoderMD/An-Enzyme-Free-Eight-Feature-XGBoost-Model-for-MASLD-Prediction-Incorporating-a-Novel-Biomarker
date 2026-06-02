@@ -67,7 +67,7 @@ The script automatically generates a new folder called `ml_output/` containing:
 ![AUROC Curve](auroc_curve_8feature_corrected.png)
 
 ### 4. Baseline Characteristics
-[Click here to view Table 1: Baseline Demographics & Clinical Characteristics](table1_demographics_8feature.csv)
+[Click here to view Table 1: Baseline Demographics & Clinical Characteristics](table1_demographics_8feature_corrected.csv)
 
 
 ## Clinical Demo
